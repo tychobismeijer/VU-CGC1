@@ -19,12 +19,14 @@
 		<echo message="  ant clean  : to clean the tree."/>
 		<echo message="  ant distro : to create a tarball of your JOINC."/>
 		<echo message="  ant docs   : build the javadoc documentation."/>
-	</target>
+    </target>
 
-     <target name="check-environment">
+    <target name="check-environment">
+<!--
         <condition property="ant.correct">
-              <isset property="env.ANT_HOME"/>
+            <isset property="env.ANT_HOME"/>
         </condition>
+-->
 
         <condition property="gat.set">
               <isset property="env.GAT_LOCATION"/>
@@ -46,14 +48,14 @@
         <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
         <fail/>
     </target>
-
+<!--
     <target name="check-ant-correct" unless="ant.correct">
         <echo message="Your $ANT_HOME is not set!"/>
         <echo message="Please ensure that your environment is correct by running:"/>
         <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
         <fail/>
     </target>
-
+-->
     <target name="prepare"> 
         <mkdir dir="${distdir}"  />
         <mkdir dir="${builddir}" />
@@ -91,7 +93,8 @@
                 includes="**" 
                 classpath="${cpath}"
                 debug="true" 
-                deprecation="true" 
+                deprecation="true"
+                includeantruntime="false"
         />
 
         <jar jarfile="${distdir}/joinc.jar">
@@ -104,7 +107,7 @@
     </target>
 
     <target name="build"
-        depends="check-environment,check-ant-correct,check-gat-set,check-gat-correct,prepare,perform-build" 
+        depends="check-environment,check-gat-set,check-gat-correct,prepare,perform-build" 
         description="Build the JOINC jar file"/>
 
     <target name="clean" 
