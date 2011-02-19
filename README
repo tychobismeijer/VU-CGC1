@@ -1,0 +1,31 @@
+This directory contains the JOINC template. You can find the 
+Java sources in the directory:
+ 
+     ./src/joinc 
+
+To build Joinc you can use ant. Make sure your ant setup is correct by 
+typing:
+
+     echo $ANT_HOME
+
+which should reply:
+
+     /usr/local/VU/practicum/gridcomputing/ant
+
+If you can a different reply (or no reply at all), you should set your 
+environment correctly by typing:
+
+    . /usr/local/VU/practicum/gridcomputing/environment 
+
+Then retry the test described above. See the web page for more information. 
+
+You can then type
+
+    ant build   to build the JOINC jar file
+    ant clean   to clean the tree
+    ant distro  to create a tarball of your JOINC
+    ant docs    to generate javadoc for users
+
+Enjoy!
+
+
