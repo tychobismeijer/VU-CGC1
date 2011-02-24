@@ -1,0 +1,46 @@
+This directory contains the JavaGAT demos. You can find the 
+Java sources in the directory:
+ 
+     ./src 
+
+To build the demos you can use ant. Make sure your ant setup is 
+correct by typing:
+
+     echo $ANT_HOME
+
+which should reply:
+
+     /usr/local/VU/practicum/gridcomputing/ant
+
+If you can a different reply (or no reply at all), you should set your 
+environment correctly by typing:
+
+    . /usr/local/VU/practicum/gridcomputing/environment 
+
+Then retry the test above. See the web page for more information. 
+
+You can then type
+
+    ant build   to build the demo jar file
+    ant clean   to clean the tree
+
+The demos can be run using the "run_demo" script, for example:
+
+    ./run_demo LocalFile       - will run the LocalFile demo
+
+The script expect the class name of the demo you wish to run as a 
+parameter (plus any parameters required by the demo). The following
+demos are available:
+  
+    LocalFile          - locally copy "test.in" to "test.copy"
+    RemoteFile         - copy "test.in" to the fs4
+    RemoteRemoteFile   - copy a file from any DAS site to another
+                         (needs file URI's as parameters)
+
+    LocalJob           - run '/bin/hostname -f' locally
+    RemoteJob          - run '/bin/hostname -f' on a cluster given
+			 as parameter
+
+Enjoy!
+
+

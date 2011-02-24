@@ -1,0 +1,33 @@
+#!/bin/sh
+
+source /usr/local/VU/practicum/gridcomputing/environment 
+
+if [ -z "$GAT_LOCATION" ] ; then
+        echo GAT_LOCATION variable not set, using $PWD/..
+        GAT_LOCATION=$PWD/..
+fi
+
+GAT_ENGINE_LOCATION=$GAT_LOCATION/lib
+GAT_ADAPTOR_LOCATION=$GAT_LOCATION/lib/adaptors
+
+add_to_gat_classpath () {
+        DIRLIBS=${1}/*.jar
+        for i in ${DIRLIBS}
+        do
+                 # if the directory is empty, then it will return the input string
+                 # this is stupid, so case for it
+                 if [ "$i" != "${DIRLIBS}" ] ; then
+                        if [ -z "$GAT_CLASSPATH" ] ; then
+                                GAT_CLASSPATH=$i
+                        else
+                                GAT_CLASSPATH="$i":$GAT_CLASSPATH
+                        fi
+                 fi
+        done
+}
+
+add_to_gat_classpath $GAT_ENGINE_LOCATION
+GAT_CLASSPATH=$GAT_CLASSPATH:$GAT_ENGINE_LOCATION
+
+java -cp :./jars/demo.jar:$GAT_CLASSPATH:$JOINC_JAR -Dgat.adaptor.path=$GAT_ADAPTOR_LOCATION -Dlog4j.configuration=file:$GAT_LOCATION/log4j.properties $*
+

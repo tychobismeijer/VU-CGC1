@@ -1,0 +1,91 @@
+<project name="JavaGAT Demos" 
+    default="usage" 
+    basedir=".">
+
+    <property environment="env"/>
+
+    <property name="srcdir"   location="src"/>
+    <property name="builddir" location="build"/>
+    <property name="distdir"  location="jars"/>
+    <property name="docdir"   location="docs"/>
+
+    <property name="cpath"    location="${env.GAT_LOCATION}/lib/GAT-engine.jar"/>
+
+    <target name="usage" 
+        description="Print usage string">
+		<echo message="JavaGAT Demos"/>
+		<echo message="  ant build  : build the demo jarfile."/>
+		<echo message="  ant clean  : to clean the tree."/>
+    </target>
+
+     <target name="check-environment">
+        <condition property="ant.correct">
+              <isset property="env.ANT_HOME"/>
+        </condition>
+
+        <condition property="gat.set">
+              <isset property="env.GAT_LOCATION"/>
+        </condition>
+
+        <available file="${cpath}" property="gat.correct"/>
+    </target>
+
+    <target name="check-gat-correct" unless="gat.correct">
+        <echo message="Your $GAT_LOCATION is not set correctly (file not found)!"/>
+        <echo message="Please ensure that your environment is correct by running:"/>
+        <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
+        <fail/>
+    </target>
+
+    <target name="check-gat-set" unless="gat.set">
+        <echo message="Your $GAT_LOCATION is not set!"/>
+        <echo message="Please ensure that your environment is correct by running:"/>
+        <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
+        <fail/>
+    </target>
+
+    <target name="check-ant-correct" unless="ant.correct">
+        <echo message="Your $ANT_HOME is not set!"/>
+        <echo message="Please ensure that your environment is correct by running:"/>
+        <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
+        <fail/>
+    </target>
+
+    <target name="prepare"> 
+        <mkdir dir="${distdir}"  />
+        <mkdir dir="${builddir}" />
+    </target>
+
+    <target name="perform-build"
+        depends="prepare"> 
+
+        <delete failonerror="false" file="${distdir}/demo.jar" />
+
+        <javac  srcdir="${srcdir}" 
+                destdir="${builddir}" 
+                includes="**/**" 
+                classpath="${cpath}"
+                debug="true" 
+                deprecation="true">
+		<compilerarg value="-Xlint"/>
+        </javac>
+
+        <jar jarfile="${distdir}/demo.jar">
+            <fileset dir="${builddir}" > 
+                <include name="**/**" />
+            </fileset>
+        </jar>
+
+        <delete failonerror="false" dir="${builddir}" />
+    </target>
+
+    <target name="build"
+        depends="check-environment,check-ant-correct,check-gat-set,check-gat-correct,prepare,perform-build" 
+        description="Build the demo jar file"/>
+
+    <target name="clean" 
+        description="Clean the tree">
+        <delete failonerror="false" dir="${distdir}" />
+        <delete failonerror="false" dir="${builddir}" />
+    </target>
+</project>
