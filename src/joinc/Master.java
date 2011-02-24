@@ -2,6 +2,9 @@ package joinc;
 
 import java.util.Hashtable;
 
+import java.io.InputStream;
+import java.io.IOException;
+
 import org.gridlab.gat.GAT;
 import org.gridlab.gat.URI;
 import org.gridlab.gat.Preferences;
@@ -107,6 +110,8 @@ public abstract class Master {
             JobDescription jd = new JobDescription(sd, rd);
 
             Job job = broker.submitJob(jd);
+            
+            InputStream joberrors = job.getStderr();
 
             Job.JobState state = job.getState();
 
@@ -121,8 +126,9 @@ public abstract class Master {
             }
 
             if (state == Job.JobState.SUBMISSION_ERROR) {
-                    System.out.println("ERROR");                    
+                    System.out.println("ERROR");                
                     System.out.println(job.toString());                    
+                    printInputStream(joberrors);
             } else { 
                     System.out.println("OK");
                     taskDone(t);
@@ -132,5 +138,10 @@ public abstract class Master {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }          
+    }
+    void printInputStream(InputStream is) throws IOException {
+        for(int i = is.read(); i != -1; i = is.read()) {
+           System.err.write(i); 
+        }
+    }
 }
