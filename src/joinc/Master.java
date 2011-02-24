@@ -89,15 +89,17 @@ public abstract class Master {
         try {
             File stdout = GAT.createFile("any:///stdout");
             File stderr = GAT.createFile("any:///stderr");
+            File workerjar = GAT.createFile("any:///prime-worker.jar");
 
             Task t = getTask();
             JavaSoftwareDescription sd = new JavaSoftwareDescription();
 
-            sd.setJavaClassPath(t.classPath());
+            sd.setJavaClassPath("./prime-worker.jar");
             sd.setJavaMain(t.className);
             sd.setJavaArguments(t.parameters);
             sd.setStdout(stdout);
             sd.setStderr(stderr);
+            sd.addPreStagedFile(workerjar); 
 
             Preferences prefs = new Preferences();
             //prefs.put("resourcebroker.adaptor.name", "commandlinessh");
