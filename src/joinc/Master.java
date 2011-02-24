@@ -122,6 +122,7 @@ public abstract class Master {
 
             if (state == Job.JobState.SUBMISSION_ERROR) {
                     System.out.println("ERROR");                    
+                    System.out.println(job.toString());                    
             } else { 
                     System.out.println("OK");
                     taskDone(t);
