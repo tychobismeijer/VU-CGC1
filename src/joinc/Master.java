@@ -14,6 +14,7 @@ import org.gridlab.gat.resources.ResourceBroker;
 import org.gridlab.gat.resources.ResourceDescription;
 import org.gridlab.gat.resources.HardwareResourceDescription;
 import org.gridlab.gat.resources.JavaSoftwareDescription;
+import org.gridlab.gat.resources.SoftwareDescription;
 import org.gridlab.gat.resources.JobDescription;
 import org.gridlab.gat.resources.Job;
 
@@ -92,11 +93,18 @@ public abstract class Master {
             File workerjar = GAT.createFile("any:///prime-worker.jar");
 
             Task t = getTask();
+
+            /*
             JavaSoftwareDescription sd = new JavaSoftwareDescription();
 
-            sd.setJavaClassPath("./prime-worker.jar");
+            sd.setJavaClassPath("prime-worker.jar");
             sd.setJavaMain(t.className);
             sd.setJavaArguments(t.parameters);
+            */
+
+            SoftwareDescription sd = new SoftwareDescription();
+
+	    sd.setExecutable("/bin/hostname");
             sd.setStdout(stdout);
             sd.setStderr(stderr);
             sd.addPreStagedFile(workerjar); 
