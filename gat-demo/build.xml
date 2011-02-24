@@ -19,10 +19,6 @@
     </target>
 
      <target name="check-environment">
-        <condition property="ant.correct">
-              <isset property="env.ANT_HOME"/>
-        </condition>
-
         <condition property="gat.set">
               <isset property="env.GAT_LOCATION"/>
         </condition>
@@ -44,13 +40,6 @@
         <fail/>
     </target>
 
-    <target name="check-ant-correct" unless="ant.correct">
-        <echo message="Your $ANT_HOME is not set!"/>
-        <echo message="Please ensure that your environment is correct by running:"/>
-        <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
-        <fail/>
-    </target>
-
     <target name="prepare"> 
         <mkdir dir="${distdir}"  />
         <mkdir dir="${builddir}" />
@@ -66,7 +55,8 @@
                 includes="**/**" 
                 classpath="${cpath}"
                 debug="true" 
-                deprecation="true">
+                deprecation="true"
+                includeantruntime="true">
 		<compilerarg value="-Xlint"/>
         </javac>
 
@@ -80,7 +70,7 @@
     </target>
 
     <target name="build"
-        depends="check-environment,check-ant-correct,check-gat-set,check-gat-correct,prepare,perform-build" 
+        depends="check-environment,check-gat-set,check-gat-correct,prepare,perform-build" 
         description="Build the demo jar file"/>
 
     <target name="clean" 

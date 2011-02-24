@@ -1,5 +1,20 @@
 package joinc;
 
+import java.util.Hashtable;
+
+import org.gridlab.gat.GAT;
+import org.gridlab.gat.URI;
+import org.gridlab.gat.Preferences;
+
+import org.gridlab.gat.io.File;
+
+import org.gridlab.gat.resources.ResourceBroker;
+import org.gridlab.gat.resources.ResourceDescription;
+import org.gridlab.gat.resources.HardwareResourceDescription;
+import org.gridlab.gat.resources.JavaSoftwareDescription;
+import org.gridlab.gat.resources.JobDescription;
+import org.gridlab.gat.resources.Job;
+
 /**
  * This is the main class of the JOINC library.
  * 
@@ -69,6 +84,52 @@ public abstract class Master {
      * Enjoy! 
      */
     public void start() { 
-        // this is your playground        
+        try {
+            File stdout = GAT.createFile("any:///stdout");
+            File stderr = GAT.createFile("any:///stderr");
+
+            Task t = getTask();
+            JavaSoftwareDescription sd = new JavaSoftwareDescription();
+
+            sd.setJavaClassPath(t.classPath());
+            sd.setJavaMain(t.className);
+            sd.setJavaArguments(t.parameters);
+            sd.setStdout(stdout);
+            sd.setStderr(stderr);
+
+            Preferences prefs = new Preferences();
+            //prefs.put("resourcebroker.adaptor.name", "commandlinessh");
+            prefs.put("ResourceBroker.adaptor.name", "globus");
+
+            ResourceBroker broker = GAT.createResourceBroker(prefs, new URI("any://fs0.das3.cs.vu.nl/jobmanager-sge"));
+
+            ResourceDescription rd = new HardwareResourceDescription(new Hashtable<String,Object>());
+            JobDescription jd = new JobDescription(sd, rd);
+
+            Job job = broker.submitJob(jd);
+
+            Job.JobState state = job.getState();
+
+            while (state != Job.JobState.STOPPED && state != Job.JobState.SUBMISSION_ERROR) {
+                    try { 
+                            System.out.println("Sleeping!");
+                            Thread.sleep(1000);
+                    } catch (Exception e) { 
+                            // ignore
+                    }
+                    state = job.getState();
+            }
+
+            if (state == Job.JobState.SUBMISSION_ERROR) {
+                    System.out.println("ERROR");                    
+            } else { 
+                    System.out.println("OK");
+                    taskDone(t);
+            }
+
+            GAT.end();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }          
 }

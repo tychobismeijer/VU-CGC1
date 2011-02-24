@@ -8,8 +8,11 @@
     <property name="builddir" location="build"/>
     <property name="distdir"  location="jars"/>
     <property name="docdir"   location="docs"/>
+    <property name="libdir"     value="lib"/>
 
-    <property name="cpath"    location="${env.GAT_LOCATION}/lib/GAT-engine.jar"/>
+    <path id="classpath">
+        <fileset dir="${libdir}" includes="**/*.jar"/>
+    </path>
 
     <target name="usage" 
         description="Print usage string">
@@ -21,41 +24,6 @@
 		<echo message="  ant docs   : build the javadoc documentation."/>
     </target>
 
-    <target name="check-environment">
-<!--
-        <condition property="ant.correct">
-            <isset property="env.ANT_HOME"/>
-        </condition>
--->
-
-        <condition property="gat.set">
-              <isset property="env.GAT_LOCATION"/>
-        </condition>
-
-        <available file="${cpath}" property="gat.correct"/>
-    </target>
-
-    <target name="check-gat-correct" unless="gat.correct">
-        <echo message="Your $GAT_LOCATION is not set correctly (file not found)!"/>
-        <echo message="Please ensure that your environment is correct by running:"/>
-        <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
-        <fail/>
-    </target>
-
-    <target name="check-gat-set" unless="gat.set">
-        <echo message="Your $GAT_LOCATION is not set!"/>
-        <echo message="Please ensure that your environment is correct by running:"/>
-        <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
-        <fail/>
-    </target>
-<!--
-    <target name="check-ant-correct" unless="ant.correct">
-        <echo message="Your $ANT_HOME is not set!"/>
-        <echo message="Please ensure that your environment is correct by running:"/>
-        <echo message="   . /usr/local/VU/practicum/gridcomputing/environment"/>
-        <fail/>
-    </target>
--->
     <target name="prepare"> 
         <mkdir dir="${distdir}"  />
         <mkdir dir="${builddir}" />
@@ -78,20 +46,20 @@
 	        	
     		<fileset dir="${srcdir}">
 	            <include name="**/*.java" />
-            </fileset>
+                </fileset>
 
-		</javadoc>
-   	</target>
+	</javadoc>
+    </target>
 
     <target name="perform-build"
         depends="prepare"> 
 
         <delete failonerror="false" file="${distdir}/joinc.jar" />
 
-        <javac  srcdir="${srcdir}/joinc" 
+        <javac  srcdir="${srcdir}" 
                 destdir="${builddir}" 
-                includes="**" 
-                classpath="${cpath}"
+                includes="**/**" 
+                classpathref="classpath"
                 debug="true" 
                 deprecation="true"
                 includeantruntime="false"
@@ -99,15 +67,15 @@
 
         <jar jarfile="${distdir}/joinc.jar">
             <fileset dir="${builddir}" > 
-                <include name="**" />
+                <include name="**/**" />
             </fileset>
         </jar>
 
-        <delete failonerror="false" dir="${builddir}/joinc" />
+        <delete failonerror="false" dir="${builddir}" />
     </target>
 
     <target name="build"
-        depends="check-environment,check-gat-set,check-gat-correct,prepare,perform-build" 
+        depends="prepare,perform-build" 
         description="Build the JOINC jar file"/>
 
     <target name="clean" 

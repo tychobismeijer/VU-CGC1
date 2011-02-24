@@ -83,4 +83,8 @@ public class Task {
         this.stdinFile = stdinFile;
     }
     
+    public String classPath() {
+        //TODO
+        return ":";
+    }
 }
