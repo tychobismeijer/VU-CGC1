@@ -1,6 +1,8 @@
 package joinc;
 
 import java.util.Hashtable;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import java.io.IOException;
 
@@ -104,7 +106,14 @@ public abstract class Master {
 
             SoftwareDescription sd = new SoftwareDescription();
 
-	    sd.setExecutable("/bin/hostname");
+	    sd.setExecutable("/usr/bin/java");
+            ArrayList<String> arguments = new ArrayList<String>();
+            arguments.addAll(Arrays.asList(new String[] {
+                "-classpath", "prime-worker.jar",
+                "applications.prime.PrimeWorker"}));
+            arguments.addAll(Arrays.asList(t.parameters));
+            sd.setArguments(arguments.toArray(new String[0]));
+            //TODO setup proper outfile from task
             sd.setStdout(stdout);
             sd.setStderr(stderr);
             sd.addPreStagedFile(workerjar); 
@@ -137,7 +146,6 @@ public abstract class Master {
                     System.out.println(job.toString());                    
             } else { 
                     System.out.println("OK");
-                    taskDone(t);
             }
             taskDone(t);
             GAT.end();
