@@ -96,6 +96,7 @@ public abstract class Master {
 
             Task t = getTask();
 
+            File output = GAT.createFile("any:///"+t.outputFiles[0]);
             /*
             JavaSoftwareDescription sd = new JavaSoftwareDescription();
 
@@ -117,6 +118,7 @@ public abstract class Master {
             sd.setStdout(stdout);
             sd.setStderr(stderr);
             sd.addPreStagedFile(workerjar); 
+            sd.addPostStagedFile(output); 
 
             Preferences prefs = new Preferences();
             //prefs.put("resourcebroker.adaptor.name", "commandlinessh");
