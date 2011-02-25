@@ -1,5 +1,7 @@
 package joinc;
 
+import org.gridlab.gat.resources.Job;
+
 /**
  * This class contains the information needed to start a new job. 
  */
@@ -55,6 +57,8 @@ public class Task {
      * Contains the names of all output files that are produced by the task.
      */
     public final String [] outputFiles;
+
+    private Job job;
     	   
     /**
      * Construct a new Task
@@ -83,6 +87,13 @@ public class Task {
         this.stdinFile = stdinFile;
     }
     
+    void setJob(Job job) {
+        this.job = job;
+    }
+
+    Job job() {
+        return job;
+    }
     public String classPath() {
         //TODO
         return ":";

@@ -2,9 +2,9 @@ package joinc;
 
 import java.util.Hashtable;
 import java.util.ArrayList;
+import java.util.ListIterator;
+import java.util.List;
 import java.util.Arrays;
-
-import java.io.IOException;
 
 import org.gridlab.gat.GAT;
 import org.gridlab.gat.URI;
@@ -73,8 +73,8 @@ public abstract class Master {
      * to allow the application to do some work.
      * (This method will be implemented by the application).
      */
-    public abstract void idle();  
-    
+    public abstract void idle();
+
     /**
      * This is the method you have to implement. By using the
      * abstract methods above you can get information and jobs
@@ -89,34 +89,55 @@ public abstract class Master {
      * Enjoy! 
      */
     public void start() {
+        List<Task> currentTasks = new ArrayList<Task>();
         try {
             Preferences prefs = new Preferences();
             //prefs.put("resourcebroker.adaptor.name", "commandlinessh");
             prefs.put("ResourceBroker.adaptor.name", "globus");
             
-            Task t = getTask();
             ResourceBroker broker = GAT.createResourceBroker(prefs, new URI("any://fs0.das3.cs.vu.nl/jobmanager-sge"));
-            Job job = submitTask(t, broker);
-            
-            Job.JobState state = job.getState();
 
-            while (state != Job.JobState.STOPPED && state != Job.JobState.SUBMISSION_ERROR) {
+            int finishedTasks = 0;
+            boolean didSomething;
+            ListIterator<Task> taskiter;
+            while(totalTasks() > finishedTasks) {
+                didSomething = false;
+                if( (totalTasks() > (finishedTasks + currentTasks.size())) &&
+                    (currentTasks.size() < maximumWorkers()) ){
+                    Task newTask = getTask();
+                    currentTasks.add(newTask);
+                    newTask.setJob(submitTask(newTask, broker));
+                    didSomething = true;
+                    System.err.println("Submitted a Task");
+                }
+                taskiter = currentTasks.listIterator();
+                Task t;
+                while (taskiter.hasNext()) {
+                    t = taskiter.next();
+                    Job.JobState state = t.job().getState();
+                    if (state == Job.JobState.SUBMISSION_ERROR) {
+                        System.err.println("ERROR");
+                        didSomething = true;
+                        finishedTasks++;
+                        taskiter.remove();
+                    } else
+                    if (state == Job.JobState.STOPPED) {
+                        System.err.println("Finished a Task");
+                        taskDone(t);
+                        finishedTasks++;
+                        didSomething = true;
+                        taskiter.remove();
+                    }
+                }
+                if (!didSomething) {
                     try { 
-                       System.out.println("Sleeping!");
+                       System.err.println("Sleeping!");
                        Thread.sleep(1000);
                     } catch (Exception e) { 
                             // ignore
                     }
-                    state = job.getState();
+                }
             }
-
-            if (state == Job.JobState.SUBMISSION_ERROR) {
-                    System.out.println("ERROR");                
-                    System.out.println(job.toString());                    
-            } else { 
-                    System.out.println("OK");
-            }
-            taskDone(t);
             GAT.end();
         } catch (Exception e) {
             e.printStackTrace();
