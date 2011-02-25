@@ -88,48 +88,15 @@ public abstract class Master {
      * 
      * Enjoy! 
      */
-    public void start() { 
+    public void start() {
         try {
-            File stdout = GAT.createFile("any:///stdout");
-            File stderr = GAT.createFile("any:///stderr");
-            File workerjar = GAT.createFile("any:///prime-worker.jar");
-
-            Task t = getTask();
-
-            File output = GAT.createFile("any:///"+t.outputFiles[0]);
-            /*
-            JavaSoftwareDescription sd = new JavaSoftwareDescription();
-
-            sd.setJavaClassPath("prime-worker.jar");
-            sd.setJavaMain(t.className);
-            sd.setJavaArguments(t.parameters);
-            */
-
-            SoftwareDescription sd = new SoftwareDescription();
-
-	    sd.setExecutable("/usr/bin/java");
-            ArrayList<String> arguments = new ArrayList<String>();
-            arguments.addAll(Arrays.asList(new String[] {
-                "-classpath", "prime-worker.jar",
-                "applications.prime.PrimeWorker"}));
-            arguments.addAll(Arrays.asList(t.parameters));
-            sd.setArguments(arguments.toArray(new String[0]));
-            //TODO setup proper outfile from task
-            sd.setStdout(stdout);
-            sd.setStderr(stderr);
-            sd.addPreStagedFile(workerjar); 
-            sd.addPostStagedFile(output); 
-
             Preferences prefs = new Preferences();
             //prefs.put("resourcebroker.adaptor.name", "commandlinessh");
             prefs.put("ResourceBroker.adaptor.name", "globus");
-
+            
+            Task t = getTask();
             ResourceBroker broker = GAT.createResourceBroker(prefs, new URI("any://fs0.das3.cs.vu.nl/jobmanager-sge"));
-
-            ResourceDescription rd = new HardwareResourceDescription(new Hashtable<String,Object>());
-            JobDescription jd = new JobDescription(sd, rd);
-
-            Job job = broker.submitJob(jd);
+            Job job = submitTask(t, broker);
             
             Job.JobState state = job.getState();
 
@@ -155,4 +122,47 @@ public abstract class Master {
             e.printStackTrace();
         }
     }
+
+    private Job submitTask(Task t, ResourceBroker broker) throws Exception {
+            SoftwareDescription sd = new SoftwareDescription();
+            
+            //Setup commondline
+	    sd.setExecutable("/usr/bin/java");
+            
+            sd.setArguments(cat(
+                new String[] {
+                    "-classpath", "prime-worker.jar",
+                    "applications.prime.PrimeWorker"},
+                t.parameters));
+            
+            //Setup Sandbox
+            File workerjar = GAT.createFile("any:///prime-worker.jar");
+            File output = GAT.createFile("any:///"+t.outputFiles[0]);
+            sd.addPreStagedFile(workerjar); 
+            sd.addPostStagedFile(output);
+            
+            //Setup other task environment
+            File stdout = GAT.createFile("any:///stdout");
+            File stderr = GAT.createFile("any:///stderr");
+            sd.setStdout(stdout);
+            sd.setStderr(stderr);
+            
+            //Construct JobDescription
+            ResourceDescription rd = new HardwareResourceDescription(new Hashtable<String,Object>());
+            JobDescription jd = new JobDescription(sd, rd);
+            
+            //Submit Job
+            return broker.submitJob(jd);
+    }
+    
+    /** Concatenate two String arrays.
+     */
+    private static String[] cat(String[] a1, String[] a2) {
+        String[] result = new String[a1.length + a2.length];
+        
+        System.arraycopy(a1, 0, result, 0, a1.length);
+        System.arraycopy(a2, 0, result, a1.length, a2.length);
+        
+        return result;
+    } 
 }
