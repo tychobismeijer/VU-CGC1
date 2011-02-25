@@ -131,8 +131,12 @@ public abstract class Master {
                 }
                 if (!didSomething) {
                     try { 
-                       System.err.println("Sleeping!");
-                       Thread.sleep(1000);
+                        System.err.println("Sleeping! [" +
+                            currentTasks.size() + ", " +
+                            finishedTasks + "]"
+                        );
+                        //Thread.sleep(10000);
+                        idle();
                     } catch (Exception e) { 
                             // ignore
                     }
@@ -156,10 +160,9 @@ public abstract class Master {
             t.parameters));
         
         //Setup Sandbox
-        File workerjar = GAT.createFile("any:///"+t.jars[0]);
-        File output = GAT.createFile("any:///"+t.outputFiles[0]);
-        sd.addPreStagedFile(workerjar); 
-        sd.addPostStagedFile(output);
+        setupInputFiles(t.jars, sd);
+        setupInputFiles(t.inputFiles, sd);
+        setupOutputFiles(t.outputFiles, sd);
         
         //Setup other task environment
         File stdout = GAT.createFile("any:///stdout");
@@ -175,7 +178,21 @@ public abstract class Master {
         return broker.submitJob(jd);
     }
     
-    /** Concatenate two String arrays.
+    private void setupInputFiles(String[] filenames, SoftwareDescription sd) throws Exception {
+        for (String filename : filenames) {
+            File f = GAT.createFile("any:///"+filename);
+            sd.addPreStagedFile(f); 
+        }
+    }
+    
+    private void setupOutputFiles(String[] filenames, SoftwareDescription sd) throws Exception {
+        for (String filename : filenames) {
+            File f = GAT.createFile("any:///"+filename);
+            sd.addPostStagedFile(f);
+        }
+    }
+    
+    /** Concatenate four String arrays.
      */
     private static String[] cat(String[] a1, String[] a2, String[] a3, String[] a4) {
         String[] result = new String[a1.length + a2.length + a3.length + a4.length];
