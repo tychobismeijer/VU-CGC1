@@ -124,44 +124,45 @@ public abstract class Master {
     }
 
     private Job submitTask(Task t, ResourceBroker broker) throws Exception {
-            SoftwareDescription sd = new SoftwareDescription();
-            
-            //Setup commondline
-	    sd.setExecutable("/usr/bin/java");
-            
-            sd.setArguments(cat(
-                new String[] {
-                    "-classpath", "prime-worker.jar",
-                    "applications.prime.PrimeWorker"},
-                t.parameters));
-            
-            //Setup Sandbox
-            File workerjar = GAT.createFile("any:///prime-worker.jar");
-            File output = GAT.createFile("any:///"+t.outputFiles[0]);
-            sd.addPreStagedFile(workerjar); 
-            sd.addPostStagedFile(output);
-            
-            //Setup other task environment
-            File stdout = GAT.createFile("any:///stdout");
-            File stderr = GAT.createFile("any:///stderr");
-            sd.setStdout(stdout);
-            sd.setStderr(stderr);
-            
-            //Construct JobDescription
-            ResourceDescription rd = new HardwareResourceDescription(new Hashtable<String,Object>());
-            JobDescription jd = new JobDescription(sd, rd);
-            
-            //Submit Job
-            return broker.submitJob(jd);
+        SoftwareDescription sd = new SoftwareDescription();
+        
+        //Setup commondline
+        sd.setExecutable("/usr/bin/java");
+        sd.setArguments(cat(
+            new String[] {"-classpath"},
+            t.jars,
+        new String[] {t.className},
+            t.parameters));
+        
+        //Setup Sandbox
+        File workerjar = GAT.createFile("any:///"+t.jars[0]);
+        File output = GAT.createFile("any:///"+t.outputFiles[0]);
+        sd.addPreStagedFile(workerjar); 
+        sd.addPostStagedFile(output);
+        
+        //Setup other task environment
+        File stdout = GAT.createFile("any:///stdout");
+        File stderr = GAT.createFile("any:///stderr");
+        sd.setStdout(stdout);
+        sd.setStderr(stderr);
+        
+        //Construct JobDescription
+        ResourceDescription rd = new HardwareResourceDescription(new Hashtable<String,Object>());
+        JobDescription jd = new JobDescription(sd, rd);
+        
+        //Submit Job
+        return broker.submitJob(jd);
     }
     
     /** Concatenate two String arrays.
      */
-    private static String[] cat(String[] a1, String[] a2) {
-        String[] result = new String[a1.length + a2.length];
+    private static String[] cat(String[] a1, String[] a2, String[] a3, String[] a4) {
+        String[] result = new String[a1.length + a2.length + a3.length + a4.length];
         
         System.arraycopy(a1, 0, result, 0, a1.length);
         System.arraycopy(a2, 0, result, a1.length, a2.length);
+        System.arraycopy(a3, 0, result, a1.length+a2.length, a3.length);
+        System.arraycopy(a4, 0, result, a1.length+a2.length+a3.length, a4.length);
         
         return result;
     } 
