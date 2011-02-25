@@ -75,6 +75,13 @@ public abstract class Master {
      */
     public abstract void idle();
 
+    private List<Task> scheduledTasks;
+    private List<Task> currentTasks;
+    private List<Job> currentJobs;
+    private long lastSubmitTime;
+    private static final long MAX_SCHEDULE_TIME = 5000000000L;
+    private static final int MAX_TASKS_IN_JOB = 1;
+
     /**
      * This is the method you have to implement. By using the
      * abstract methods above you can get information and jobs
@@ -89,7 +96,11 @@ public abstract class Master {
      * Enjoy! 
      */
     public void start() {
-        List<Task> currentTasks = new ArrayList<Task>();
+        currentTasks = new ArrayList<Task>();
+        scheduledTasks = new ArrayList<Task>();
+        currentJobs = new ArrayList<Job>();
+        lastSubmitTime = System.nanoTime();
+        
         try {
             Preferences prefs = new Preferences();
             //prefs.put("resourcebroker.adaptor.name", "commandlinessh");
@@ -102,13 +113,11 @@ public abstract class Master {
             ListIterator<Task> taskiter;
             while(totalTasks() > finishedTasks) {
                 didSomething = false;
-                if( (totalTasks() > (finishedTasks + currentTasks.size())) &&
-                    (currentTasks.size() < maximumWorkers()) ){
+                if ( totalTasks() > (finishedTasks + currentTasks.size() + scheduledTasks.size()) ) {
                     Task newTask = getTask();
-                    currentTasks.add(newTask);
-                    newTask.setJob(submitTask(newTask, broker));
+                    scheduledTasks.add(newTask);
                     didSomething = true;
-                    System.err.println("Submitted a Task");
+                    System.err.println("Scheduled a Task");
                 }
                 taskiter = currentTasks.listIterator();
                 Task t;
@@ -118,20 +127,24 @@ public abstract class Master {
                     if (state == Job.JobState.SUBMISSION_ERROR) {
                         System.err.println("ERROR");
                         didSomething = true;
-                        finishedTasks++;
+                        currentJobs.remove(t.job());
+                        scheduledTasks.add(t);
                         taskiter.remove();
                     } else
                     if (state == Job.JobState.STOPPED) {
                         System.err.println("Finished a Task");
                         taskDone(t);
                         finishedTasks++;
+                        currentJobs.remove(t.job());
                         didSomething = true;
                         taskiter.remove();
                     }
                 }
+                didSomething = (submitTasks(broker) || didSomething);
                 if (!didSomething) {
                     try { 
                         System.err.println("Sleeping! [" +
+                            scheduledTasks.size() + ", " +
                             currentTasks.size() + ", " +
                             finishedTasks + "]"
                         );
@@ -147,8 +160,29 @@ public abstract class Master {
             e.printStackTrace();
         }
     }
-
-    private Job submitTask(Task t, ResourceBroker broker) throws Exception {
+    private boolean submitTasks(ResourceBroker broker) throws Exception {
+        if (scheduledTasks.size() == 0) {
+            return false;
+        }
+        if (currentJobs.size() >= maximumWorkers()) {
+            return false;
+        }
+        if (scheduledTasks.size() < MAX_TASKS_IN_JOB &&
+                Math.abs(System.nanoTime() - lastSubmitTime) < MAX_SCHEDULE_TIME) {
+            return false;
+        }
+        Task t = scheduledTasks.remove(0);
+        Job j = broker.submitJob(jobDescriptionOf(t));
+        currentJobs.add(j);
+        t.setJob(j);
+        currentTasks.add(t);
+        System.err.println("Submitted a Task");
+        if(!submitTasks(broker)) {
+            lastSubmitTime = System.nanoTime();
+        }
+        return true;
+    }
+    private JobDescription jobDescriptionOf(Task t) throws Exception {
         SoftwareDescription sd = new SoftwareDescription();
         
         //Setup commondline
@@ -174,8 +208,7 @@ public abstract class Master {
         ResourceDescription rd = new HardwareResourceDescription(new Hashtable<String,Object>());
         JobDescription jd = new JobDescription(sd, rd);
         
-        //Submit Job
-        return broker.submitJob(jd);
+        return jd;
     }
     
     private void setupInputFiles(String[] filenames, SoftwareDescription sd) throws Exception {

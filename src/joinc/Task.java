@@ -1,5 +1,6 @@
 package joinc;
 
+import org.gridlab.gat.resources.JobDescription;
 import org.gridlab.gat.resources.Job;
 
 /**
