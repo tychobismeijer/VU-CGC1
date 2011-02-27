@@ -15,10 +15,12 @@ import org.gridlab.gat.io.File;
 import org.gridlab.gat.resources.ResourceBroker;
 import org.gridlab.gat.resources.ResourceDescription;
 import org.gridlab.gat.resources.HardwareResourceDescription;
-import org.gridlab.gat.resources.JavaSoftwareDescription;
+import org.gridlab.gat.resources.WrapperSoftwareDescription;
 import org.gridlab.gat.resources.SoftwareDescription;
 import org.gridlab.gat.resources.JobDescription;
+import org.gridlab.gat.resources.WrapperJobDescription;
 import org.gridlab.gat.resources.Job;
+import org.gridlab.gat.resources.WrapperJob;
 
 /**
  * This is the main class of the JOINC library.
@@ -81,7 +83,8 @@ public abstract class Master {
     private long lastSubmitTime;
     private static final long MAX_SCHEDULE_TIME = 5000000000L;
     private static final int MAX_TASKS_IN_JOB = 1;
-
+    private static final String LOCAL_BROKER = "any://localhost";
+    private static final String REMOTE_BROKER = "any://fs0.das3.cs.vu.nl/jobmanager-sge";
     /**
      * This is the method you have to implement. By using the
      * abstract methods above you can get information and jobs
@@ -103,16 +106,19 @@ public abstract class Master {
         
         try {
             Preferences prefs = new Preferences();
-            //prefs.put("resourcebroker.adaptor.name", "commandlinessh");
-            prefs.put("ResourceBroker.adaptor.name", "globus");
+            prefs.put("resourcebroker.adaptor.name", "commandlinessh");
+            //prefs.put("ResourceBroker.adaptor.name", "globus");
+            //prefs.put("globus.sandbox.gram", "true");
             
-            ResourceBroker broker = GAT.createResourceBroker(prefs, new URI("any://fs0.das3.cs.vu.nl/jobmanager-sge"));
+            ResourceBroker broker = GAT.createResourceBroker(prefs, new URI(REMOTE_BROKER));
 
             int finishedTasks = 0;
             boolean didSomething;
             ListIterator<Task> taskiter;
+            ListIterator<Job> jobiter;
             while(totalTasks() > finishedTasks) {
                 didSomething = false;
+                // TODO: only add to queue if the queue is not to full
                 if ( totalTasks() > (finishedTasks + currentTasks.size() + scheduledTasks.size()) ) {
                     Task newTask = getTask();
                     scheduledTasks.add(newTask);
@@ -127,7 +133,6 @@ public abstract class Master {
                     if (state == Job.JobState.SUBMISSION_ERROR) {
                         System.err.println("ERROR");
                         didSomething = true;
-                        currentJobs.remove(t.job());
                         scheduledTasks.add(t);
                         taskiter.remove();
                     } else
@@ -135,9 +140,24 @@ public abstract class Master {
                         System.err.println("Finished a Task");
                         taskDone(t);
                         finishedTasks++;
-                        currentJobs.remove(t.job());
                         didSomething = true;
                         taskiter.remove();
+                    }
+                }
+                jobiter = currentJobs.listIterator();
+                Job j;
+                while (jobiter.hasNext()) {
+                    j = jobiter.next();
+                    Job.JobState state = j.getState();
+                    if (state == Job.JobState.SUBMISSION_ERROR) {
+                        System.err.println("ERROR");
+                        didSomething = true;
+                        jobiter.remove();
+                    } else
+                    if (state == Job.JobState.STOPPED) {
+                        System.err.println("Finished a Task");
+                        didSomething = true;
+                        jobiter.remove();
                     }
                 }
                 didSomething = (submitTasks(broker) || didSomething);
@@ -160,6 +180,7 @@ public abstract class Master {
             e.printStackTrace();
         }
     }
+
     private boolean submitTasks(ResourceBroker broker) throws Exception {
         if (scheduledTasks.size() == 0) {
             return false;
@@ -171,17 +192,34 @@ public abstract class Master {
                 Math.abs(System.nanoTime() - lastSubmitTime) < MAX_SCHEDULE_TIME) {
             return false;
         }
-        Task t = scheduledTasks.remove(0);
-        Job j = broker.submitJob(jobDescriptionOf(t));
-        currentJobs.add(j);
-        t.setJob(j);
-        currentTasks.add(t);
-        System.err.println("Submitted a Task");
+        Preferences prefs = new Preferences();
+        prefs.put("ResourceBroker.adaptor.name", "local");
+        WrapperSoftwareDescription wsd = new WrapperSoftwareDescription();
+        wsd.setExecutable("/usr/local/package/jdk1.6.0-linux-amd64/bin/java");
+        WrapperJobDescription wjd = new WrapperJobDescription(wsd);
+        Task[] t = new Task[MAX_TASKS_IN_JOB];
+        int i = 0;
+        while ((i < MAX_TASKS_IN_JOB) && (scheduledTasks.size() > 0)) {
+            t[i] = scheduledTasks.remove(0);
+            JobDescription jd = jobDescriptionOf(t[i]);
+            t[i].setJobDescription(jd);
+            wjd.add(jd, new URI(REMOTE_BROKER), prefs);
+            i++;
+        }   
+        WrapperJob wj = (WrapperJob) broker.submitJob(wjd);
+        System.err.println("Submitted a Job");
+        currentJobs.add(wj);
+        for (i=0; i<t.length; i++) {
+            if (t[i] == null) { break; }
+            t[i].setJob(wj.getJob(t[i].jobDescription()));
+            currentTasks.add(t[i]);
+        }
         if(!submitTasks(broker)) {
             lastSubmitTime = System.nanoTime();
         }
         return true;
     }
+
     private JobDescription jobDescriptionOf(Task t) throws Exception {
         SoftwareDescription sd = new SoftwareDescription();
         

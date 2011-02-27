@@ -60,6 +60,7 @@ public class Task {
     public final String [] outputFiles;
 
     private Job job;
+    private JobDescription jd;
     	   
     /**
      * Construct a new Task
@@ -95,8 +96,12 @@ public class Task {
     Job job() {
         return job;
     }
-    public String classPath() {
-        //TODO
-        return ":";
+    
+    void setJobDescription(JobDescription jd) {
+        this.jd = jd;
+    }
+
+    JobDescription jobDescription() {
+        return jd;
     }
 }
