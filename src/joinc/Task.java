@@ -1,7 +1,12 @@
 package joinc;
 
+import org.gridlab.gat.GATInvocationException;
+
 import org.gridlab.gat.resources.JobDescription;
 import org.gridlab.gat.resources.Job;
+import org.gridlab.gat.resources.WrapperJob;
+
+import java.util.Arrays;
 
 /**
  * This class contains the information needed to start a new job. 
@@ -59,7 +64,7 @@ public class Task {
      */
     public final String [] outputFiles;
 
-    private Job job;
+    private WrapperJob job;
     private JobDescription jd;
     	   
     /**
@@ -89,11 +94,11 @@ public class Task {
         this.stdinFile = stdinFile;
     }
     
-    void setJob(Job job) {
+    void setJob(WrapperJob job) {
         this.job = job;
     }
 
-    Job job() {
+    WrapperJob job() {
         return job;
     }
     
@@ -103,5 +108,35 @@ public class Task {
 
     JobDescription jobDescription() {
         return jd;
+    }
+
+    boolean
+    finishedCorrectly()
+    {
+        System.err.println("Checking task:"
+            + taskNumber
+            + ": "
+            + Arrays.toString(outputFiles)
+        );
+        try
+        {
+            System.err.println("Job finished with status: "
+                + job.getJob(jd).getState() );
+        }
+        catch (GATInvocationException e)
+        {
+            System.err.println("Couldn't read job status!");
+        }
+        for (String filename : outputFiles)
+        {
+            java.io.File f = new java.io.File(filename);
+            System.err.println("Checking file: " + f.getAbsolutePath());
+            if ((f.length() == 0))
+            {
+                System.err.println("Missing output files of task.");
+                return false;
+            }
+        }
+        return true;
     }
 }
