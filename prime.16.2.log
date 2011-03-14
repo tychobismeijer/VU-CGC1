@@ -1,0 +1,459 @@
+time ./run_prime 16 2
+PrimeMaster started
+Using worker jar: ./prime-worker.jar
+Number of tasks : 16
+Found JavaGAT at any://fs0.das3.cs.vu.nl//var/scratch/tbr440/JavaGAT-2.1.0/
+Created task 1234567890 result.0
+Tasks waiting 15 / running 1 / finished 0
+Scheduled a Task
+Created task 1234567891 result.1
+Tasks waiting 14 / running 2 / finished 0
+Scheduled a Task
+Created task 1234567892 result.2
+Tasks waiting 13 / running 3 / finished 0
+Scheduled a Task
+Created task 1234567893 result.3
+Tasks waiting 12 / running 4 / finished 0
+Scheduled a Task
+Created task 1234567894 result.4
+Tasks waiting 11 / running 5 / finished 0
+Scheduled a Task
+Created task 1234567895 result.5
+Tasks waiting 10 / running 6 / finished 0
+Scheduled a Task
+Created task 1234567896 result.6
+Tasks waiting 9 / running 7 / finished 0
+Scheduled a Task
+Created task 1234567897 result.7
+Tasks waiting 8 / running 8 / finished 0
+Scheduled a Task
+Created task 1234567898 result.8
+Tasks waiting 7 / running 9 / finished 0
+Scheduled a Task
+Created task 1234567899 result.9
+Tasks waiting 6 / running 10 / finished 0
+Scheduled a Task
+Created task 1234567900 result.10
+Tasks waiting 5 / running 11 / finished 0
+Scheduled a Task
+Created task 1234567901 result.11
+Tasks waiting 4 / running 12 / finished 0
+Scheduled a Task
+Created task 1234567902 result.12
+Tasks waiting 3 / running 13 / finished 0
+Scheduled a Task
+Created task 1234567903 result.13
+Tasks waiting 2 / running 14 / finished 0
+Scheduled a Task
+Created task 1234567904 result.14
+Tasks waiting 1 / running 15 / finished 0
+Scheduled a Task
+Created task 1234567905 result.15
+Tasks waiting 0 / running 16 / finished 0
+Scheduled a Task
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Idle... [scheduled: 12, current: 4, finished: 0]
+Checking task:0: [result.0]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.0
+Checking task:0: [result.0]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.0
+Finished task: 0
+Task 0 done
+Tasks waiting 0 / running 15 / finished 1
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:1: [result.1]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.1
+Checking task:1: [result.1]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.1
+Finished task: 1
+Task 1 done
+Tasks waiting 0 / running 14 / finished 2
+Checking task:2: [result.2]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.2
+Checking task:2: [result.2]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.2
+Finished task: 2
+Task 2 done
+Tasks waiting 0 / running 13 / finished 3
+Checking task:3: [result.3]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.3
+Checking task:3: [result.3]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.3
+Finished task: 3
+Task 3 done
+Tasks waiting 0 / running 12 / finished 4
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Idle... [scheduled: 8, current: 4, finished: 4]
+Checking task:4: [result.4]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.4
+Checking task:4: [result.4]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.4
+Finished task: 4
+Task 4 done
+Tasks waiting 0 / running 11 / finished 5
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:5: [result.5]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.5
+Checking task:5: [result.5]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.5
+Finished task: 5
+Task 5 done
+Tasks waiting 0 / running 10 / finished 6
+Checking task:6: [result.6]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.6
+Checking task:6: [result.6]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.6
+Finished task: 6
+Task 6 done
+Tasks waiting 0 / running 9 / finished 7
+Checking task:7: [result.7]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.7
+Checking task:7: [result.7]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.7
+Finished task: 7
+Task 7 done
+Tasks waiting 0 / running 8 / finished 8
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Idle... [scheduled: 4, current: 4, finished: 8]
+Checking task:8: [result.8]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.8
+Checking task:8: [result.8]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.8
+Finished task: 8
+Task 8 done
+Tasks waiting 0 / running 7 / finished 9
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:9: [result.9]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.9
+Checking task:9: [result.9]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.9
+Finished task: 9
+Task 9 done
+Tasks waiting 0 / running 6 / finished 10
+Idle... [scheduled: 2, current: 4, finished: 10]
+Idle... [scheduled: 2, current: 4, finished: 10]
+Idle... [scheduled: 2, current: 4, finished: 10]
+Idle... [scheduled: 2, current: 4, finished: 10]
+Idle... [scheduled: 2, current: 4, finished: 10]
+Checking task:10: [result.10]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.10
+Checking task:10: [result.10]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.10
+Finished task: 10
+Task 10 done
+Tasks waiting 0 / running 5 / finished 11
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:11: [result.11]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.11
+Checking task:11: [result.11]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.11
+Finished task: 11
+Task 11 done
+Tasks waiting 0 / running 4 / finished 12
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Idle... [scheduled: 0, current: 4, finished: 12]
+Checking task:12: [result.12]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.12
+Checking task:12: [result.12]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.12
+Finished task: 12
+Task 12 done
+Tasks waiting 0 / running 3 / finished 13
+Finished a Job
+Checking task:13: [result.13]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.13
+Checking task:13: [result.13]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.13
+Finished task: 13
+Task 13 done
+Tasks waiting 0 / running 2 / finished 14
+Idle... [scheduled: 0, current: 2, finished: 14]
+Idle... [scheduled: 0, current: 2, finished: 14]
+Idle... [scheduled: 0, current: 2, finished: 14]
+Idle... [scheduled: 0, current: 2, finished: 14]
+Idle... [scheduled: 0, current: 2, finished: 14]
+Checking task:14: [result.14]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.14
+Checking task:14: [result.14]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.14
+Finished task: 14
+Task 14 done
+Tasks waiting 0 / running 1 / finished 15
+Finished a Job
+Checking task:15: [result.15]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.15
+Checking task:15: [result.15]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.15
+Finished task: 15
+Task 15 done
+Tasks waiting 0 / running 0 / finished 16
+
+Tasks finished: 16 (OK)
+Results:
+  1234567890 -> 2 * 3 * 3 * 5 * 3607 * 3803
+  1234567891 -> 1234567891
+  1234567892 -> 2 * 2 * 41 * 7527853
+  1234567893 -> 3 * 13 * 31655587
+  1234567894 -> 2 * 7 * 47 * 479 * 3917
+  1234567895 -> 5 * 11 * 23 * 975943
+  1234567896 -> 2 * 2 * 2 * 3 * 83 * 619763
+  1234567897 -> 17 * 73 * 994817
+  1234567898 -> 2 * 61 * 10119409
+  1234567899 -> 3 * 3 * 3 * 3 * 109 * 139831
+  1234567900 -> 2 * 2 * 5 * 5 * 37 * 333667
+  1234567901 -> 7 * 31 * 613 * 9281
+  1234567902 -> 2 * 3 * 19 * 53 * 204331
+  1234567903 -> 29 * 42571307
+  1234567904 -> 2 * 2 * 2 * 2 * 2 * 38580247
+  1234567905 -> 3 * 5 * 443 * 185789
+
+Master time: 448 sec.
+Worker time: 1163 sec.
+
+real	7m28.928s
+user	0m13.593s
+sys	0m1.536s
+_tbr440@fs0:~/cgc/prime\[tbr440@fs0 prime]$ 

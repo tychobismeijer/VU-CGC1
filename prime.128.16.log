@@ -1,0 +1,2048 @@
+time ./run_prime 128 16
+PrimeMaster started
+Using worker jar: ./prime-worker.jar
+Number of tasks : 128
+Found JavaGAT at any://fs0.das3.cs.vu.nl//var/scratch/tbr440/JavaGAT-2.1.0/
+Created task 1234567890 result.0
+Tasks waiting 127 / running 1 / finished 0
+Scheduled a Task
+Created task 1234567891 result.1
+Tasks waiting 126 / running 2 / finished 0
+Scheduled a Task
+Created task 1234567892 result.2
+Tasks waiting 125 / running 3 / finished 0
+Scheduled a Task
+Created task 1234567893 result.3
+Tasks waiting 124 / running 4 / finished 0
+Scheduled a Task
+Created task 1234567894 result.4
+Tasks waiting 123 / running 5 / finished 0
+Scheduled a Task
+Created task 1234567895 result.5
+Tasks waiting 122 / running 6 / finished 0
+Scheduled a Task
+Created task 1234567896 result.6
+Tasks waiting 121 / running 7 / finished 0
+Scheduled a Task
+Created task 1234567897 result.7
+Tasks waiting 120 / running 8 / finished 0
+Scheduled a Task
+Created task 1234567898 result.8
+Tasks waiting 119 / running 9 / finished 0
+Scheduled a Task
+Created task 1234567899 result.9
+Tasks waiting 118 / running 10 / finished 0
+Scheduled a Task
+Created task 1234567900 result.10
+Tasks waiting 117 / running 11 / finished 0
+Scheduled a Task
+Created task 1234567901 result.11
+Tasks waiting 116 / running 12 / finished 0
+Scheduled a Task
+Created task 1234567902 result.12
+Tasks waiting 115 / running 13 / finished 0
+Scheduled a Task
+Created task 1234567903 result.13
+Tasks waiting 114 / running 14 / finished 0
+Scheduled a Task
+Created task 1234567904 result.14
+Tasks waiting 113 / running 15 / finished 0
+Scheduled a Task
+Created task 1234567905 result.15
+Tasks waiting 112 / running 16 / finished 0
+Scheduled a Task
+Created task 1234567906 result.16
+Tasks waiting 111 / running 17 / finished 0
+Scheduled a Task
+Created task 1234567907 result.17
+Tasks waiting 110 / running 18 / finished 0
+Scheduled a Task
+Created task 1234567908 result.18
+Tasks waiting 109 / running 19 / finished 0
+Scheduled a Task
+Created task 1234567909 result.19
+Tasks waiting 108 / running 20 / finished 0
+Scheduled a Task
+Created task 1234567910 result.20
+Tasks waiting 107 / running 21 / finished 0
+Scheduled a Task
+Created task 1234567911 result.21
+Tasks waiting 106 / running 22 / finished 0
+Scheduled a Task
+Created task 1234567912 result.22
+Tasks waiting 105 / running 23 / finished 0
+Scheduled a Task
+Created task 1234567913 result.23
+Tasks waiting 104 / running 24 / finished 0
+Scheduled a Task
+Created task 1234567914 result.24
+Tasks waiting 103 / running 25 / finished 0
+Scheduled a Task
+Created task 1234567915 result.25
+Tasks waiting 102 / running 26 / finished 0
+Scheduled a Task
+Created task 1234567916 result.26
+Tasks waiting 101 / running 27 / finished 0
+Scheduled a Task
+Created task 1234567917 result.27
+Tasks waiting 100 / running 28 / finished 0
+Scheduled a Task
+Created task 1234567918 result.28
+Tasks waiting 99 / running 29 / finished 0
+Scheduled a Task
+Created task 1234567919 result.29
+Tasks waiting 98 / running 30 / finished 0
+Scheduled a Task
+Created task 1234567920 result.30
+Tasks waiting 97 / running 31 / finished 0
+Scheduled a Task
+Created task 1234567921 result.31
+Tasks waiting 96 / running 32 / finished 0
+Scheduled a Task
+Created task 1234567922 result.32
+Tasks waiting 95 / running 33 / finished 0
+Scheduled a Task
+Created task 1234567923 result.33
+Tasks waiting 94 / running 34 / finished 0
+Scheduled a Task
+Created task 1234567924 result.34
+Tasks waiting 93 / running 35 / finished 0
+Scheduled a Task
+Created task 1234567925 result.35
+Tasks waiting 92 / running 36 / finished 0
+Scheduled a Task
+Created task 1234567926 result.36
+Tasks waiting 91 / running 37 / finished 0
+Scheduled a Task
+Created task 1234567927 result.37
+Tasks waiting 90 / running 38 / finished 0
+Scheduled a Task
+Created task 1234567928 result.38
+Tasks waiting 89 / running 39 / finished 0
+Scheduled a Task
+Created task 1234567929 result.39
+Tasks waiting 88 / running 40 / finished 0
+Scheduled a Task
+Created task 1234567930 result.40
+Tasks waiting 87 / running 41 / finished 0
+Scheduled a Task
+Created task 1234567931 result.41
+Tasks waiting 86 / running 42 / finished 0
+Scheduled a Task
+Created task 1234567932 result.42
+Tasks waiting 85 / running 43 / finished 0
+Scheduled a Task
+Created task 1234567933 result.43
+Tasks waiting 84 / running 44 / finished 0
+Scheduled a Task
+Created task 1234567934 result.44
+Tasks waiting 83 / running 45 / finished 0
+Scheduled a Task
+Created task 1234567935 result.45
+Tasks waiting 82 / running 46 / finished 0
+Scheduled a Task
+Created task 1234567936 result.46
+Tasks waiting 81 / running 47 / finished 0
+Scheduled a Task
+Created task 1234567937 result.47
+Tasks waiting 80 / running 48 / finished 0
+Scheduled a Task
+Created task 1234567938 result.48
+Tasks waiting 79 / running 49 / finished 0
+Scheduled a Task
+Created task 1234567939 result.49
+Tasks waiting 78 / running 50 / finished 0
+Scheduled a Task
+Created task 1234567940 result.50
+Tasks waiting 77 / running 51 / finished 0
+Scheduled a Task
+Created task 1234567941 result.51
+Tasks waiting 76 / running 52 / finished 0
+Scheduled a Task
+Created task 1234567942 result.52
+Tasks waiting 75 / running 53 / finished 0
+Scheduled a Task
+Created task 1234567943 result.53
+Tasks waiting 74 / running 54 / finished 0
+Scheduled a Task
+Created task 1234567944 result.54
+Tasks waiting 73 / running 55 / finished 0
+Scheduled a Task
+Created task 1234567945 result.55
+Tasks waiting 72 / running 56 / finished 0
+Scheduled a Task
+Created task 1234567946 result.56
+Tasks waiting 71 / running 57 / finished 0
+Scheduled a Task
+Created task 1234567947 result.57
+Tasks waiting 70 / running 58 / finished 0
+Scheduled a Task
+Created task 1234567948 result.58
+Tasks waiting 69 / running 59 / finished 0
+Scheduled a Task
+Created task 1234567949 result.59
+Tasks waiting 68 / running 60 / finished 0
+Scheduled a Task
+Created task 1234567950 result.60
+Tasks waiting 67 / running 61 / finished 0
+Scheduled a Task
+Created task 1234567951 result.61
+Tasks waiting 66 / running 62 / finished 0
+Scheduled a Task
+Created task 1234567952 result.62
+Tasks waiting 65 / running 63 / finished 0
+Scheduled a Task
+Created task 1234567953 result.63
+Tasks waiting 64 / running 64 / finished 0
+Scheduled a Task
+Created task 1234567954 result.64
+Tasks waiting 63 / running 65 / finished 0
+Scheduled a Task
+Created task 1234567955 result.65
+Tasks waiting 62 / running 66 / finished 0
+Scheduled a Task
+Created task 1234567956 result.66
+Tasks waiting 61 / running 67 / finished 0
+Scheduled a Task
+Created task 1234567957 result.67
+Tasks waiting 60 / running 68 / finished 0
+Scheduled a Task
+Created task 1234567958 result.68
+Tasks waiting 59 / running 69 / finished 0
+Scheduled a Task
+Created task 1234567959 result.69
+Tasks waiting 58 / running 70 / finished 0
+Scheduled a Task
+Created task 1234567960 result.70
+Tasks waiting 57 / running 71 / finished 0
+Scheduled a Task
+Created task 1234567961 result.71
+Tasks waiting 56 / running 72 / finished 0
+Scheduled a Task
+Created task 1234567962 result.72
+Tasks waiting 55 / running 73 / finished 0
+Scheduled a Task
+Created task 1234567963 result.73
+Tasks waiting 54 / running 74 / finished 0
+Scheduled a Task
+Created task 1234567964 result.74
+Tasks waiting 53 / running 75 / finished 0
+Scheduled a Task
+Created task 1234567965 result.75
+Tasks waiting 52 / running 76 / finished 0
+Scheduled a Task
+Created task 1234567966 result.76
+Tasks waiting 51 / running 77 / finished 0
+Scheduled a Task
+Created task 1234567967 result.77
+Tasks waiting 50 / running 78 / finished 0
+Scheduled a Task
+Created task 1234567968 result.78
+Tasks waiting 49 / running 79 / finished 0
+Scheduled a Task
+Created task 1234567969 result.79
+Tasks waiting 48 / running 80 / finished 0
+Scheduled a Task
+Created task 1234567970 result.80
+Tasks waiting 47 / running 81 / finished 0
+Scheduled a Task
+Created task 1234567971 result.81
+Tasks waiting 46 / running 82 / finished 0
+Scheduled a Task
+Created task 1234567972 result.82
+Tasks waiting 45 / running 83 / finished 0
+Scheduled a Task
+Created task 1234567973 result.83
+Tasks waiting 44 / running 84 / finished 0
+Scheduled a Task
+Created task 1234567974 result.84
+Tasks waiting 43 / running 85 / finished 0
+Scheduled a Task
+Created task 1234567975 result.85
+Tasks waiting 42 / running 86 / finished 0
+Scheduled a Task
+Created task 1234567976 result.86
+Tasks waiting 41 / running 87 / finished 0
+Scheduled a Task
+Created task 1234567977 result.87
+Tasks waiting 40 / running 88 / finished 0
+Scheduled a Task
+Created task 1234567978 result.88
+Tasks waiting 39 / running 89 / finished 0
+Scheduled a Task
+Created task 1234567979 result.89
+Tasks waiting 38 / running 90 / finished 0
+Scheduled a Task
+Created task 1234567980 result.90
+Tasks waiting 37 / running 91 / finished 0
+Scheduled a Task
+Created task 1234567981 result.91
+Tasks waiting 36 / running 92 / finished 0
+Scheduled a Task
+Created task 1234567982 result.92
+Tasks waiting 35 / running 93 / finished 0
+Scheduled a Task
+Created task 1234567983 result.93
+Tasks waiting 34 / running 94 / finished 0
+Scheduled a Task
+Created task 1234567984 result.94
+Tasks waiting 33 / running 95 / finished 0
+Scheduled a Task
+Created task 1234567985 result.95
+Tasks waiting 32 / running 96 / finished 0
+Scheduled a Task
+Created task 1234567986 result.96
+Tasks waiting 31 / running 97 / finished 0
+Scheduled a Task
+Created task 1234567987 result.97
+Tasks waiting 30 / running 98 / finished 0
+Scheduled a Task
+Created task 1234567988 result.98
+Tasks waiting 29 / running 99 / finished 0
+Scheduled a Task
+Created task 1234567989 result.99
+Tasks waiting 28 / running 100 / finished 0
+Scheduled a Task
+Created task 1234567990 result.100
+Tasks waiting 27 / running 101 / finished 0
+Scheduled a Task
+Created task 1234567991 result.101
+Tasks waiting 26 / running 102 / finished 0
+Scheduled a Task
+Created task 1234567992 result.102
+Tasks waiting 25 / running 103 / finished 0
+Scheduled a Task
+Created task 1234567993 result.103
+Tasks waiting 24 / running 104 / finished 0
+Scheduled a Task
+Created task 1234567994 result.104
+Tasks waiting 23 / running 105 / finished 0
+Scheduled a Task
+Created task 1234567995 result.105
+Tasks waiting 22 / running 106 / finished 0
+Scheduled a Task
+Created task 1234567996 result.106
+Tasks waiting 21 / running 107 / finished 0
+Scheduled a Task
+Created task 1234567997 result.107
+Tasks waiting 20 / running 108 / finished 0
+Scheduled a Task
+Created task 1234567998 result.108
+Tasks waiting 19 / running 109 / finished 0
+Scheduled a Task
+Created task 1234567999 result.109
+Tasks waiting 18 / running 110 / finished 0
+Scheduled a Task
+Created task 1234568000 result.110
+Tasks waiting 17 / running 111 / finished 0
+Scheduled a Task
+Created task 1234568001 result.111
+Tasks waiting 16 / running 112 / finished 0
+Scheduled a Task
+Created task 1234568002 result.112
+Tasks waiting 15 / running 113 / finished 0
+Scheduled a Task
+Created task 1234568003 result.113
+Tasks waiting 14 / running 114 / finished 0
+Scheduled a Task
+Created task 1234568004 result.114
+Tasks waiting 13 / running 115 / finished 0
+Scheduled a Task
+Created task 1234568005 result.115
+Tasks waiting 12 / running 116 / finished 0
+Scheduled a Task
+Created task 1234568006 result.116
+Tasks waiting 11 / running 117 / finished 0
+Scheduled a Task
+Created task 1234568007 result.117
+Tasks waiting 10 / running 118 / finished 0
+Scheduled a Task
+Created task 1234568008 result.118
+Tasks waiting 9 / running 119 / finished 0
+Scheduled a Task
+Created task 1234568009 result.119
+Tasks waiting 8 / running 120 / finished 0
+Scheduled a Task
+Created task 1234568010 result.120
+Tasks waiting 7 / running 121 / finished 0
+Scheduled a Task
+Created task 1234568011 result.121
+Tasks waiting 6 / running 122 / finished 0
+Scheduled a Task
+Created task 1234568012 result.122
+Tasks waiting 5 / running 123 / finished 0
+Scheduled a Task
+Created task 1234568013 result.123
+Tasks waiting 4 / running 124 / finished 0
+Scheduled a Task
+Created task 1234568014 result.124
+Tasks waiting 3 / running 125 / finished 0
+Scheduled a Task
+Created task 1234568015 result.125
+Tasks waiting 2 / running 126 / finished 0
+Scheduled a Task
+Created task 1234568016 result.126
+Tasks waiting 1 / running 127 / finished 0
+Scheduled a Task
+Created task 1234568017 result.127
+Tasks waiting 0 / running 128 / finished 0
+Scheduled a Task
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Idle... [scheduled: 96, current: 32, finished: 0]
+Checking task:4: [result.4]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.4
+Checking task:4: [result.4]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.4
+Finished task: 4
+Task 4 done
+Tasks waiting 0 / running 127 / finished 1
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:0: [result.0]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.0
+Checking task:0: [result.0]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.0
+Finished task: 0
+Task 0 done
+Tasks waiting 0 / running 126 / finished 2
+Checking task:1: [result.1]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.1
+Checking task:1: [result.1]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.1
+Finished task: 1
+Task 1 done
+Tasks waiting 0 / running 125 / finished 3
+Checking task:2: [result.2]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.2
+Checking task:2: [result.2]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.2
+Finished task: 2
+Task 2 done
+Tasks waiting 0 / running 124 / finished 4
+Checking task:3: [result.3]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.3
+Checking task:3: [result.3]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.3
+Finished task: 3
+Task 3 done
+Tasks waiting 0 / running 123 / finished 5
+Checking task:5: [result.5]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.5
+Checking task:5: [result.5]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.5
+Finished task: 5
+Task 5 done
+Tasks waiting 0 / running 122 / finished 6
+Checking task:6: [result.6]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.6
+Checking task:6: [result.6]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.6
+Finished task: 6
+Task 6 done
+Tasks waiting 0 / running 121 / finished 7
+Checking task:7: [result.7]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.7
+Checking task:7: [result.7]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.7
+Finished task: 7
+Task 7 done
+Tasks waiting 0 / running 120 / finished 8
+Checking task:14: [result.14]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.14
+Checking task:14: [result.14]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.14
+Finished task: 14
+Task 14 done
+Tasks waiting 0 / running 119 / finished 9
+Checking task:15: [result.15]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.15
+Checking task:15: [result.15]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.15
+Finished task: 15
+Task 15 done
+Tasks waiting 0 / running 118 / finished 10
+Checking task:16: [result.16]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.16
+Checking task:16: [result.16]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.16
+Finished task: 16
+Task 16 done
+Tasks waiting 0 / running 117 / finished 11
+Checking task:17: [result.17]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.17
+Checking task:17: [result.17]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.17
+Finished task: 17
+Task 17 done
+Tasks waiting 0 / running 116 / finished 12
+Checking task:18: [result.18]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.18
+Checking task:18: [result.18]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.18
+Finished task: 18
+Task 18 done
+Tasks waiting 0 / running 115 / finished 13
+Checking task:19: [result.19]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.19
+Checking task:19: [result.19]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.19
+Finished task: 19
+Task 19 done
+Tasks waiting 0 / running 114 / finished 14
+Checking task:20: [result.20]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.20
+Checking task:20: [result.20]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.20
+Finished task: 20
+Task 20 done
+Tasks waiting 0 / running 113 / finished 15
+Checking task:21: [result.21]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.21
+Checking task:21: [result.21]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.21
+Finished task: 21
+Task 21 done
+Tasks waiting 0 / running 112 / finished 16
+Checking task:22: [result.22]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.22
+Checking task:22: [result.22]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.22
+Finished task: 22
+Task 22 done
+Tasks waiting 0 / running 111 / finished 17
+Checking task:23: [result.23]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.23
+Checking task:23: [result.23]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.23
+Finished task: 23
+Task 23 done
+Tasks waiting 0 / running 110 / finished 18
+Checking task:24: [result.24]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.24
+Checking task:24: [result.24]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.24
+Finished task: 24
+Task 24 done
+Tasks waiting 0 / running 109 / finished 19
+Checking task:25: [result.25]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.25
+Checking task:25: [result.25]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.25
+Finished task: 25
+Task 25 done
+Tasks waiting 0 / running 108 / finished 20
+Checking task:26: [result.26]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.26
+Checking task:26: [result.26]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.26
+Finished task: 26
+Task 26 done
+Tasks waiting 0 / running 107 / finished 21
+Checking task:27: [result.27]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.27
+Checking task:27: [result.27]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.27
+Finished task: 27
+Task 27 done
+Tasks waiting 0 / running 106 / finished 22
+Checking task:30: [result.30]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.30
+Checking task:30: [result.30]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.30
+Finished task: 30
+Task 30 done
+Tasks waiting 0 / running 105 / finished 23
+Checking task:31: [result.31]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.31
+Checking task:31: [result.31]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.31
+Finished task: 31
+Task 31 done
+Tasks waiting 0 / running 104 / finished 24
+Idle... [scheduled: 72, current: 32, finished: 24]
+Idle... [scheduled: 72, current: 32, finished: 24]
+Checking task:28: [result.28]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.28
+Checking task:28: [result.28]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.28
+Finished task: 28
+Task 28 done
+Tasks waiting 0 / running 103 / finished 25
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:8: [result.8]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.8
+Checking task:8: [result.8]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.8
+Finished task: 8
+Task 8 done
+Tasks waiting 0 / running 102 / finished 26
+Finished a Job
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:9: [result.9]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.9
+Checking task:9: [result.9]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.9
+Finished task: 9
+Task 9 done
+Tasks waiting 0 / running 101 / finished 27
+Checking task:10: [result.10]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.10
+Checking task:10: [result.10]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.10
+Finished task: 10
+Task 10 done
+Tasks waiting 0 / running 100 / finished 28
+Checking task:11: [result.11]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.11
+Checking task:11: [result.11]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.11
+Finished task: 11
+Task 11 done
+Tasks waiting 0 / running 99 / finished 29
+Checking task:12: [result.12]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.12
+Checking task:12: [result.12]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.12
+Finished task: 12
+Task 12 done
+Tasks waiting 0 / running 98 / finished 30
+Checking task:13: [result.13]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.13
+Checking task:13: [result.13]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.13
+Finished task: 13
+Task 13 done
+Tasks waiting 0 / running 97 / finished 31
+Checking task:29: [result.29]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.29
+Checking task:29: [result.29]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.29
+Finished task: 29
+Task 29 done
+Tasks waiting 0 / running 96 / finished 32
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Idle... [scheduled: 64, current: 32, finished: 32]
+Checking task:32: [result.32]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.32
+Checking task:32: [result.32]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.32
+Finished task: 32
+Task 32 done
+Tasks waiting 0 / running 95 / finished 33
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:33: [result.33]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.33
+Checking task:33: [result.33]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.33
+Finished task: 33
+Task 33 done
+Tasks waiting 0 / running 94 / finished 34
+Idle... [scheduled: 62, current: 32, finished: 34]
+Idle... [scheduled: 62, current: 32, finished: 34]
+Idle... [scheduled: 62, current: 32, finished: 34]
+Idle... [scheduled: 62, current: 32, finished: 34]
+Idle... [scheduled: 62, current: 32, finished: 34]
+Checking task:34: [result.34]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.34
+Checking task:34: [result.34]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.34
+Finished task: 34
+Task 34 done
+Tasks waiting 0 / running 93 / finished 35
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:35: [result.35]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.35
+Checking task:35: [result.35]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.35
+Finished task: 35
+Task 35 done
+Tasks waiting 0 / running 92 / finished 36
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:36: [result.36]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.36
+Checking task:36: [result.36]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.36
+Finished task: 36
+Task 36 done
+Tasks waiting 0 / running 91 / finished 37
+Checking task:37: [result.37]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.37
+Checking task:37: [result.37]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.37
+Finished task: 37
+Task 37 done
+Tasks waiting 0 / running 90 / finished 38
+Checking task:38: [result.38]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.38
+Checking task:38: [result.38]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.38
+Finished task: 38
+Task 38 done
+Tasks waiting 0 / running 89 / finished 39
+Checking task:39: [result.39]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.39
+Checking task:39: [result.39]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.39
+Finished task: 39
+Task 39 done
+Tasks waiting 0 / running 88 / finished 40
+Checking task:40: [result.40]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.40
+Checking task:40: [result.40]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.40
+Finished task: 40
+Task 40 done
+Tasks waiting 0 / running 87 / finished 41
+Checking task:41: [result.41]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.41
+Checking task:41: [result.41]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.41
+Finished task: 41
+Task 41 done
+Tasks waiting 0 / running 86 / finished 42
+Checking task:42: [result.42]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.42
+Checking task:42: [result.42]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.42
+Finished task: 42
+Task 42 done
+Tasks waiting 0 / running 85 / finished 43
+Checking task:43: [result.43]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.43
+Checking task:43: [result.43]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.43
+Finished task: 43
+Task 43 done
+Tasks waiting 0 / running 84 / finished 44
+Checking task:44: [result.44]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.44
+Checking task:44: [result.44]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.44
+Finished task: 44
+Task 44 done
+Tasks waiting 0 / running 83 / finished 45
+Checking task:45: [result.45]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.45
+Checking task:45: [result.45]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.45
+Finished task: 45
+Task 45 done
+Tasks waiting 0 / running 82 / finished 46
+Checking task:46: [result.46]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.46
+Checking task:46: [result.46]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.46
+Finished task: 46
+Task 46 done
+Tasks waiting 0 / running 81 / finished 47
+Checking task:47: [result.47]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.47
+Checking task:47: [result.47]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.47
+Finished task: 47
+Task 47 done
+Tasks waiting 0 / running 80 / finished 48
+Checking task:48: [result.48]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.48
+Checking task:48: [result.48]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.48
+Finished task: 48
+Task 48 done
+Tasks waiting 0 / running 79 / finished 49
+Checking task:49: [result.49]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.49
+Checking task:49: [result.49]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.49
+Finished task: 49
+Task 49 done
+Tasks waiting 0 / running 78 / finished 50
+Checking task:50: [result.50]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.50
+Checking task:50: [result.50]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.50
+Finished task: 50
+Task 50 done
+Tasks waiting 0 / running 77 / finished 51
+Checking task:51: [result.51]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.51
+Checking task:51: [result.51]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.51
+Finished task: 51
+Task 51 done
+Tasks waiting 0 / running 76 / finished 52
+Checking task:52: [result.52]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.52
+Checking task:52: [result.52]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.52
+Finished task: 52
+Task 52 done
+Tasks waiting 0 / running 75 / finished 53
+Checking task:53: [result.53]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.53
+Checking task:53: [result.53]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.53
+Finished task: 53
+Task 53 done
+Tasks waiting 0 / running 74 / finished 54
+Checking task:54: [result.54]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.54
+Checking task:54: [result.54]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.54
+Finished task: 54
+Task 54 done
+Tasks waiting 0 / running 73 / finished 55
+Checking task:55: [result.55]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.55
+Checking task:55: [result.55]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.55
+Finished task: 55
+Task 55 done
+Tasks waiting 0 / running 72 / finished 56
+Checking task:56: [result.56]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.56
+Checking task:56: [result.56]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.56
+Finished task: 56
+Task 56 done
+Tasks waiting 0 / running 71 / finished 57
+Checking task:57: [result.57]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.57
+Checking task:57: [result.57]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.57
+Finished task: 57
+Task 57 done
+Tasks waiting 0 / running 70 / finished 58
+Checking task:60: [result.60]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.60
+Checking task:60: [result.60]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.60
+Finished task: 60
+Task 60 done
+Tasks waiting 0 / running 69 / finished 59
+Checking task:61: [result.61]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.61
+Checking task:61: [result.61]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.61
+Finished task: 61
+Task 61 done
+Tasks waiting 0 / running 68 / finished 60
+Idle... [scheduled: 36, current: 32, finished: 60]
+Idle... [scheduled: 36, current: 32, finished: 60]
+Idle... [scheduled: 36, current: 32, finished: 60]
+Idle... [scheduled: 36, current: 32, finished: 60]
+Checking task:58: [result.58]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.58
+Checking task:58: [result.58]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.58
+Finished task: 58
+Task 58 done
+Tasks waiting 0 / running 67 / finished 61
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:59: [result.59]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.59
+Checking task:59: [result.59]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.59
+Finished task: 59
+Task 59 done
+Tasks waiting 0 / running 66 / finished 62
+Checking task:62: [result.62]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.62
+Checking task:62: [result.62]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.62
+Finished task: 62
+Task 62 done
+Tasks waiting 0 / running 65 / finished 63
+Checking task:63: [result.63]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.63
+Checking task:63: [result.63]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.63
+Finished task: 63
+Task 63 done
+Tasks waiting 0 / running 64 / finished 64
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Idle... [scheduled: 32, current: 32, finished: 64]
+Checking task:64: [result.64]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.64
+Checking task:64: [result.64]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.64
+Finished task: 64
+Task 64 done
+Tasks waiting 0 / running 63 / finished 65
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:65: [result.65]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.65
+Checking task:65: [result.65]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.65
+Finished task: 65
+Task 65 done
+Tasks waiting 0 / running 62 / finished 66
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Idle... [scheduled: 30, current: 32, finished: 66]
+Checking task:66: [result.66]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.66
+Checking task:66: [result.66]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.66
+Finished task: 66
+Task 66 done
+Tasks waiting 0 / running 61 / finished 67
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:67: [result.67]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.67
+Checking task:67: [result.67]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.67
+Finished task: 67
+Task 67 done
+Tasks waiting 0 / running 60 / finished 68
+Checking task:68: [result.68]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.68
+Checking task:68: [result.68]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.68
+Finished task: 68
+Task 68 done
+Tasks waiting 0 / running 59 / finished 69
+Checking task:69: [result.69]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.69
+Checking task:69: [result.69]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.69
+Finished task: 69
+Task 69 done
+Tasks waiting 0 / running 58 / finished 70
+Checking task:70: [result.70]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.70
+Checking task:70: [result.70]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.70
+Finished task: 70
+Task 70 done
+Tasks waiting 0 / running 57 / finished 71
+Checking task:71: [result.71]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.71
+Checking task:71: [result.71]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.71
+Finished task: 71
+Task 71 done
+Tasks waiting 0 / running 56 / finished 72
+Checking task:72: [result.72]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.72
+Checking task:72: [result.72]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.72
+Finished task: 72
+Task 72 done
+Tasks waiting 0 / running 55 / finished 73
+Checking task:73: [result.73]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.73
+Checking task:73: [result.73]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.73
+Finished task: 73
+Task 73 done
+Tasks waiting 0 / running 54 / finished 74
+Checking task:80: [result.80]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.80
+Checking task:80: [result.80]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.80
+Finished task: 80
+Task 80 done
+Tasks waiting 0 / running 53 / finished 75
+Checking task:81: [result.81]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.81
+Checking task:81: [result.81]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.81
+Finished task: 81
+Task 81 done
+Tasks waiting 0 / running 52 / finished 76
+Checking task:82: [result.82]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.82
+Checking task:82: [result.82]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.82
+Finished task: 82
+Task 82 done
+Tasks waiting 0 / running 51 / finished 77
+Checking task:83: [result.83]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.83
+Checking task:83: [result.83]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.83
+Finished task: 83
+Task 83 done
+Tasks waiting 0 / running 50 / finished 78
+Checking task:84: [result.84]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.84
+Checking task:84: [result.84]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.84
+Finished task: 84
+Task 84 done
+Tasks waiting 0 / running 49 / finished 79
+Checking task:85: [result.85]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.85
+Checking task:85: [result.85]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.85
+Finished task: 85
+Task 85 done
+Tasks waiting 0 / running 48 / finished 80
+Idle... [scheduled: 16, current: 32, finished: 80]
+Idle... [scheduled: 16, current: 32, finished: 80]
+Idle... [scheduled: 16, current: 32, finished: 80]
+Idle... [scheduled: 16, current: 32, finished: 80]
+Checking task:74: [result.74]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.74
+Checking task:74: [result.74]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.74
+Finished task: 74
+Task 74 done
+Tasks waiting 0 / running 47 / finished 81
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Submitted a Job to: any://fs0.das3.cs.vu.nl/jobmanager-sge
+Checking task:75: [result.75]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.75
+Checking task:75: [result.75]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.75
+Finished task: 75
+Task 75 done
+Tasks waiting 0 / running 46 / finished 82
+Checking task:76: [result.76]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.76
+Checking task:76: [result.76]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.76
+Finished task: 76
+Task 76 done
+Tasks waiting 0 / running 45 / finished 83
+Checking task:77: [result.77]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.77
+Checking task:77: [result.77]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.77
+Finished task: 77
+Task 77 done
+Tasks waiting 0 / running 44 / finished 84
+Checking task:78: [result.78]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.78
+Checking task:78: [result.78]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.78
+Finished task: 78
+Task 78 done
+Tasks waiting 0 / running 43 / finished 85
+Checking task:79: [result.79]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.79
+Checking task:79: [result.79]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.79
+Finished task: 79
+Task 79 done
+Tasks waiting 0 / running 42 / finished 86
+Checking task:86: [result.86]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.86
+Checking task:86: [result.86]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.86
+Finished task: 86
+Task 86 done
+Tasks waiting 0 / running 41 / finished 87
+Checking task:87: [result.87]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.87
+Checking task:87: [result.87]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.87
+Finished task: 87
+Task 87 done
+Tasks waiting 0 / running 40 / finished 88
+Checking task:88: [result.88]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.88
+Checking task:88: [result.88]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.88
+Finished task: 88
+Task 88 done
+Tasks waiting 0 / running 39 / finished 89
+Checking task:89: [result.89]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.89
+Checking task:89: [result.89]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.89
+Finished task: 89
+Task 89 done
+Tasks waiting 0 / running 38 / finished 90
+Checking task:90: [result.90]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.90
+Checking task:90: [result.90]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.90
+Finished task: 90
+Task 90 done
+Tasks waiting 0 / running 37 / finished 91
+Checking task:91: [result.91]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.91
+Checking task:91: [result.91]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.91
+Finished task: 91
+Task 91 done
+Tasks waiting 0 / running 36 / finished 92
+Checking task:92: [result.92]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.92
+Checking task:92: [result.92]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.92
+Finished task: 92
+Task 92 done
+Tasks waiting 0 / running 35 / finished 93
+Checking task:93: [result.93]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.93
+Checking task:93: [result.93]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.93
+Finished task: 93
+Task 93 done
+Tasks waiting 0 / running 34 / finished 94
+Checking task:94: [result.94]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.94
+Checking task:94: [result.94]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.94
+Finished task: 94
+Task 94 done
+Tasks waiting 0 / running 33 / finished 95
+Checking task:95: [result.95]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.95
+Checking task:95: [result.95]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.95
+Finished task: 95
+Task 95 done
+Tasks waiting 0 / running 32 / finished 96
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Idle... [scheduled: 0, current: 32, finished: 96]
+Checking task:96: [result.96]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.96
+Checking task:96: [result.96]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.96
+Finished task: 96
+Task 96 done
+Tasks waiting 0 / running 31 / finished 97
+Finished a Job
+Checking task:97: [result.97]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.97
+Checking task:97: [result.97]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.97
+Finished task: 97
+Task 97 done
+Tasks waiting 0 / running 30 / finished 98
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Idle... [scheduled: 0, current: 30, finished: 98]
+Checking task:100: [result.100]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.100
+Checking task:100: [result.100]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.100
+Finished task: 100
+Task 100 done
+Tasks waiting 0 / running 29 / finished 99
+Finished a Job
+Finished a Job
+Checking task:101: [result.101]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.101
+Checking task:101: [result.101]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.101
+Finished task: 101
+Task 101 done
+Tasks waiting 0 / running 28 / finished 100
+Checking task:102: [result.102]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.102
+Checking task:102: [result.102]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.102
+Finished task: 102
+Task 102 done
+Tasks waiting 0 / running 27 / finished 101
+Checking task:103: [result.103]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.103
+Checking task:103: [result.103]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.103
+Finished task: 103
+Task 103 done
+Tasks waiting 0 / running 26 / finished 102
+Idle... [scheduled: 0, current: 26, finished: 102]
+Idle... [scheduled: 0, current: 26, finished: 102]
+Checking task:98: [result.98]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.98
+Checking task:98: [result.98]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.98
+Finished task: 98
+Task 98 done
+Tasks waiting 0 / running 25 / finished 103
+Finished a Job
+Checking task:99: [result.99]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.99
+Checking task:99: [result.99]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.99
+Finished task: 99
+Task 99 done
+Tasks waiting 0 / running 24 / finished 104
+Idle... [scheduled: 0, current: 24, finished: 104]
+Idle... [scheduled: 0, current: 24, finished: 104]
+Checking task:106: [result.106]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.106
+Checking task:106: [result.106]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.106
+Finished task: 106
+Task 106 done
+Tasks waiting 0 / running 23 / finished 105
+Finished a Job
+Finished a Job
+Finished a Job
+Checking task:104: [result.104]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.104
+Checking task:104: [result.104]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.104
+Finished task: 104
+Task 104 done
+Tasks waiting 0 / running 22 / finished 106
+Checking task:105: [result.105]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.105
+Checking task:105: [result.105]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.105
+Finished task: 105
+Task 105 done
+Tasks waiting 0 / running 21 / finished 107
+Checking task:107: [result.107]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.107
+Checking task:107: [result.107]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.107
+Finished task: 107
+Task 107 done
+Tasks waiting 0 / running 20 / finished 108
+Checking task:110: [result.110]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.110
+Checking task:110: [result.110]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.110
+Finished task: 110
+Task 110 done
+Tasks waiting 0 / running 19 / finished 109
+Checking task:111: [result.111]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.111
+Checking task:111: [result.111]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.111
+Finished task: 111
+Task 111 done
+Tasks waiting 0 / running 18 / finished 110
+Idle... [scheduled: 0, current: 18, finished: 110]
+Idle... [scheduled: 0, current: 18, finished: 110]
+Idle... [scheduled: 0, current: 18, finished: 110]
+Checking task:108: [result.108]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.108
+Checking task:108: [result.108]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.108
+Finished task: 108
+Task 108 done
+Tasks waiting 0 / running 17 / finished 111
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Finished a Job
+Checking task:109: [result.109]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.109
+Checking task:109: [result.109]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.109
+Finished task: 109
+Task 109 done
+Tasks waiting 0 / running 16 / finished 112
+Checking task:112: [result.112]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.112
+Checking task:112: [result.112]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.112
+Finished task: 112
+Task 112 done
+Tasks waiting 0 / running 15 / finished 113
+Checking task:113: [result.113]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.113
+Checking task:113: [result.113]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.113
+Finished task: 113
+Task 113 done
+Tasks waiting 0 / running 14 / finished 114
+Checking task:114: [result.114]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.114
+Checking task:114: [result.114]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.114
+Finished task: 114
+Task 114 done
+Tasks waiting 0 / running 13 / finished 115
+Checking task:115: [result.115]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.115
+Checking task:115: [result.115]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.115
+Finished task: 115
+Task 115 done
+Tasks waiting 0 / running 12 / finished 116
+Checking task:116: [result.116]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.116
+Checking task:116: [result.116]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.116
+Finished task: 116
+Task 116 done
+Tasks waiting 0 / running 11 / finished 117
+Checking task:117: [result.117]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.117
+Checking task:117: [result.117]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.117
+Finished task: 117
+Task 117 done
+Tasks waiting 0 / running 10 / finished 118
+Checking task:118: [result.118]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.118
+Checking task:118: [result.118]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.118
+Finished task: 118
+Task 118 done
+Tasks waiting 0 / running 9 / finished 119
+Checking task:119: [result.119]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.119
+Checking task:119: [result.119]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.119
+Finished task: 119
+Task 119 done
+Tasks waiting 0 / running 8 / finished 120
+Checking task:120: [result.120]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.120
+Checking task:120: [result.120]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.120
+Finished task: 120
+Task 120 done
+Tasks waiting 0 / running 7 / finished 121
+Checking task:121: [result.121]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.121
+Checking task:121: [result.121]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.121
+Finished task: 121
+Task 121 done
+Tasks waiting 0 / running 6 / finished 122
+Checking task:122: [result.122]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.122
+Checking task:122: [result.122]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.122
+Finished task: 122
+Task 122 done
+Tasks waiting 0 / running 5 / finished 123
+Checking task:123: [result.123]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.123
+Checking task:123: [result.123]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.123
+Finished task: 123
+Task 123 done
+Tasks waiting 0 / running 4 / finished 124
+Checking task:124: [result.124]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.124
+Checking task:124: [result.124]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.124
+Finished task: 124
+Task 124 done
+Tasks waiting 0 / running 3 / finished 125
+Checking task:125: [result.125]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.125
+Checking task:125: [result.125]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.125
+Finished task: 125
+Task 125 done
+Tasks waiting 0 / running 2 / finished 126
+Checking task:126: [result.126]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.126
+Checking task:126: [result.126]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.126
+Finished task: 126
+Task 126 done
+Tasks waiting 0 / running 1 / finished 127
+Checking task:127: [result.127]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.127
+Checking task:127: [result.127]
+Job finished with status: STOPPED
+Checking file: /home0/tbr440/Cluster and Grid Computing/prime/result.127
+Finished task: 127
+Task 127 done
+Tasks waiting 0 / running 0 / finished 128
+
+Tasks finished: 128 (OK)
+Results:
+  1234567890 -> 2 * 3 * 3 * 5 * 3607 * 3803
+  1234567891 -> 1234567891
+  1234567892 -> 2 * 2 * 41 * 7527853
+  1234567893 -> 3 * 13 * 31655587
+  1234567894 -> 2 * 7 * 47 * 479 * 3917
+  1234567895 -> 5 * 11 * 23 * 975943
+  1234567896 -> 2 * 2 * 2 * 3 * 83 * 619763
+  1234567897 -> 17 * 73 * 994817
+  1234567898 -> 2 * 61 * 10119409
+  1234567899 -> 3 * 3 * 3 * 3 * 109 * 139831
+  1234567900 -> 2 * 2 * 5 * 5 * 37 * 333667
+  1234567901 -> 7 * 31 * 613 * 9281
+  1234567902 -> 2 * 3 * 19 * 53 * 204331
+  1234567903 -> 29 * 42571307
+  1234567904 -> 2 * 2 * 2 * 2 * 2 * 38580247
+  1234567905 -> 3 * 5 * 443 * 185789
+  1234567906 -> 2 * 11 * 13 * 631 * 6841
+  1234567907 -> 1234567907
+  1234567908 -> 2 * 2 * 3 * 3 * 7 * 4899079
+  1234567909 -> 20887 * 59107
+  1234567910 -> 2 * 5 * 123456791
+  1234567911 -> 3 * 411522637
+  1234567912 -> 2 * 2 * 2 * 317 * 486817
+  1234567913 -> 1234567913
+  1234567914 -> 2 * 3 * 17 * 947 * 12781
+  1234567915 -> 5 * 7 * 35273369
+  1234567916 -> 2 * 2 * 499 * 618521
+  1234567917 -> 3 * 3 * 11 * 223 * 55921
+  1234567918 -> 2 * 23 * 79 * 339727
+  1234567919 -> 13 * 94966763
+  1234567920 -> 2 * 2 * 2 * 2 * 3 * 5 * 59 * 87187
+  1234567921 -> 19 * 64977259
+  1234567922 -> 2 * 7 * 88183423
+  1234567923 -> 3 * 401 * 641 * 1601
+  1234567924 -> 2 * 2 * 308641981
+  1234567925 -> 5 * 5 * 193 * 255869
+  1234567926 -> 2 * 3 * 3 * 3 * 43 * 107 * 4969
+  1234567927 -> 1234567927
+  1234567928 -> 2 * 2 * 2 * 11 * 1709 * 8209
+  1234567929 -> 3 * 7 * 67 * 827 * 1061
+  1234567930 -> 2 * 5 * 157 * 786349
+  1234567931 -> 17 * 72621643
+  1234567932 -> 2 * 2 * 3 * 13 * 29 * 31 * 8803
+  1234567933 -> 41 * 967 * 31139
+  1234567934 -> 2 * 617283967
+  1234567935 -> 3 * 3 * 5 * 27434843
+  1234567936 -> 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 * 7 * 7 * 98419
+  1234567937 -> 37 * 33366701
+  1234567938 -> 2 * 3 * 205761323
+  1234567939 -> 11 * 112233449
+  1234567940 -> 2 * 2 * 5 * 19 * 113 * 28751
+  1234567941 -> 3 * 23 * 47 * 199 * 1913
+  1234567942 -> 2 * 18371 * 33601
+  1234567943 -> 7 * 176366849
+  1234567944 -> 2 * 2 * 2 * 3 * 3 * 17146777
+  1234567945 -> 5 * 13 * 101 * 383 * 491
+  1234567946 -> 2 * 617283973
+  1234567947 -> 3 * 411522649
+  1234567948 -> 2 * 2 * 17 * 277 * 65543
+  1234567949 -> 1234567949
+  1234567950 -> 2 * 3 * 5 * 5 * 7 * 11 * 89 * 1201
+  1234567951 -> 71 * 541 * 32141
+  1234567952 -> 2 * 2 * 2 * 2 * 77160497
+  1234567953 -> 3 * 3 * 3 * 45724739
+  1234567954 -> 2 * 617283977
+  1234567955 -> 5 * 53 * 1721 * 2707
+  1234567956 -> 2 * 2 * 3 * 349 * 294787
+  1234567957 -> 7 * 176366851
+  1234567958 -> 2 * 13 * 307 * 154669
+  1234567959 -> 3 * 19 * 61 * 149 * 2383
+  1234567960 -> 2 * 2 * 2 * 5 * 30864199
+  1234567961 -> 11 * 11 * 29 * 351829
+  1234567962 -> 2 * 3 * 3 * 1663 * 41243
+  1234567963 -> 31 * 173 * 211 * 1091
+  1234567964 -> 2 * 2 * 7 * 23 * 659 * 2909
+  1234567965 -> 3 * 5 * 17 * 137 * 35339
+  1234567966 -> 2 * 617283983
+  1234567967 -> 1234567967
+  1234567968 -> 2 * 2 * 2 * 2 * 2 * 3 * 269 * 47807
+  1234567969 -> 43 * 28710883
+  1234567970 -> 2 * 5 * 73 * 1691189
+  1234567971 -> 3 * 3 * 7 * 13 * 397 * 3797
+  1234567972 -> 2 * 2 * 11 * 359 * 78157
+  1234567973 -> 131 * 283 * 33301
+  1234567974 -> 2 * 3 * 37 * 41 * 135637
+  1234567975 -> 5 * 5 * 233 * 211943
+  1234567976 -> 2 * 2 * 2 * 139 * 1110223
+  1234567977 -> 3 * 411522659
+  1234567978 -> 2 * 7 * 19 * 809 * 5737
+  1234567979 -> 59 * 59 * 83 * 4273
+  1234567980 -> 2 * 2 * 3 * 3 * 3 * 3 * 5 * 769 * 991
+  1234567981 -> 1234567981
+  1234567982 -> 2 * 17 * 36310823
+  1234567983 -> 3 * 11 * 37411151
+  1234567984 -> 2 * 2 * 2 * 2 * 13 * 13 * 456571
+  1234567985 -> 5 * 7 * 7 * 97 * 51949
+  1234567986 -> 2 * 3 * 205761331
+  1234567987 -> 23 * 3533 * 15193
+  1234567988 -> 2 * 2 * 47 * 6566851
+  1234567989 -> 3 * 3 * 137174221
+  1234567990 -> 2 * 5 * 29 * 4257131
+  1234567991 -> 103 * 11986097
+  1234567992 -> 2 * 2 * 2 * 3 * 7 * 311 * 23629
+  1234567993 -> 1579 * 781867
+  1234567994 -> 2 * 11 * 31 * 1810217
+  1234567995 -> 3 * 5 * 82304533
+  1234567996 -> 2 * 2 * 67 * 4606597
+  1234567997 -> 13 * 19 * 79 * 151 * 419
+  1234567998 -> 2 * 3 * 3 * 4691 * 14621
+  1234567999 -> 7 * 17 * 2459 * 4219
+  1234568000 -> 2 * 2 * 2 * 2 * 2 * 2 * 5 * 5 * 5 * 154321
+  1234568001 -> 3 * 1609 * 255763
+  1234568002 -> 2 * 21563 * 28627
+  1234568003 -> 6337 * 194819
+  1234568004 -> 2 * 2 * 3 * 1009 * 101963
+  1234568005 -> 5 * 11 * 22446691
+  1234568006 -> 2 * 7 * 5059 * 17431
+  1234568007 -> 3 * 3 * 3 * 45724741
+  1234568008 -> 2 * 2 * 2 * 53 * 109 * 26713
+  1234568009 -> 5023 * 245783
+  1234568010 -> 2 * 3 * 5 * 13 * 23 * 137633
+  1234568011 -> 37 * 2543 * 13121
+  1234568012 -> 2 * 2 * 43 * 179 * 40099
+  1234568013 -> 3 * 7 * 58788953
+  1234568014 -> 2 * 617284007
+  1234568015 -> 5 * 41 * 6022283
+  1234568016 -> 2 * 2 * 2 * 2 * 3 * 3 * 11 * 17 * 19 * 19 * 127
+  1234568017 -> 761 * 1622297
+
+Master time: 550 sec.
+Worker time: 9313 sec.
+
+real	9m11.640s
+user	0m49.283s
+sys	0m12.777s
+_tbr440@fs0:~/cgc/prime\[tbr440@fs0 prime]$ 
